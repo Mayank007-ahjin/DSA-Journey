@@ -87,6 +87,31 @@ int main(){
     }
 }
 /*Task5:Take a 3×3 matrix as input and print the sum of all elements.*/
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+    int i=0,j=0;
+    int arr[3][3];
+    cout<<"Enter the elements of the matrix :";
+    for (i=0;i<3;i+=1){
+        for (j=0;j<3;j+=1){
+            cin>>arr[i][j];
+        }
+    }
+     for (i=0;i<3;i+=1){
+        for (j=0;j<3;j+=1){
+            cout<<arr[i][j]<<" ";
+        }
+        cout<<endl;
+    }
+    int sum = 0;
+    for (i=0;i<3;i+=1){
+        for (j=0;j<3;j+=1){
+            sum += arr[i][j];
+        }
+    }
+    cout<<"The sum of all elements in the matrix is :"<<sum;
+}
 /*Task 6:Take a 3×3 matrix and print its main diagonal elements.*/
 #include <bits/stdc++.h>
 using namespace std;
