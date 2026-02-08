@@ -82,5 +82,5 @@ int main(){
         cin>>n;
         print1(n);
     }
-    return 0;
+   
 }

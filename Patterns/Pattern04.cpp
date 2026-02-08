@@ -35,5 +35,5 @@ int main(){
         cin>>n;
         print1(n);
     }
-    return 0;
+  return 0;
 }
