@@ -1,4 +1,4 @@
-//for normal case://
+//for normal case:
 using namespace std;
 void print1(int n){
     for (int i=1;i<=n;i+=1){
@@ -15,7 +15,7 @@ int main(){
     return 0;
 }
 
-//for test case://
+//for test case:
 #include <bits/stdc++.h>    
 using namespace std;
 void print1(int n){
