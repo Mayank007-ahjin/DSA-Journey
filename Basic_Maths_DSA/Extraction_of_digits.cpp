@@ -25,6 +25,7 @@ int main(){
         a=a/10;
     }
     cout<<"The number of digits is: "<<count<<endl;
+    return 0;
 }
 //reverse of a number:
 #include <bits/stdc++.h>
