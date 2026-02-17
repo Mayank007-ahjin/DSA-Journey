@@ -19,6 +19,3 @@ I am committed to:
 - 📈 Becoming placement & interview ready
 
 ---
-
-## 🗂️ Folder Structure
-
