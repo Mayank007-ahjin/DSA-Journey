@@ -9,7 +9,7 @@ int main(){
     cout<<"The divisors of "<<n<<" are: ";
     for (int i=1;i<=n;i++){
         if (n%i==0){
-            cout<<i<<endl;
+            cout<<i<<" ";
         }
         
     }
@@ -34,8 +34,8 @@ int main(){
         
     }
     sort(divisors.begin(),divisors.end());
-    for (int i=0;i<divisors.size();i++){
-        cout<<divisors[i]<<" ";
+    for (auto it : divisors){
+        cout<<it<<" ";
     }
     return 0;
 }
